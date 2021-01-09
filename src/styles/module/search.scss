@@ -1,0 +1,40 @@
+.blog-search-container {
+
+    margin-bottom: 26px;
+  
+  
+    .search-box {
+      padding: 20px;
+      position: relative;
+      top: 80px;
+      background: #fff;
+      border-radius: 4px;
+      border: none;
+      box-shadow: 0 0 10px #737373;
+  
+      .search-input {
+        width: calc(100% - 42px);
+        border: none;
+        color: black;
+      }
+  
+      label,
+      fieldset {
+        display: none;
+      }
+  
+      input {
+        font-size: 18px;
+      }
+  
+      input::-webkit-input-placeholder {
+        font-size: 18px;
+      }
+  
+      svg {
+        font-size: 30px;
+        position: relative;
+        color: #868686;
+      }
+    }
+  }
